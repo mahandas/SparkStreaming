@@ -53,7 +53,7 @@ def getSentiment(rdd):
   esConn.index(index="hash_tags_sentiment_analysis", doc_type="tweet-sentiment-analysis", body=d)
   
 
-esConn = Elasticsearch([{'host': '18.189.188.39', 'port': 9200}])
+esConn = Elasticsearch([{'host': '', 'port': 9200}])
 for message in consumer:
     #message = [getHashTag(message.value),get_tweet_sentiment(message.value), message.value]
     df = sc.parallelize([message.value])
