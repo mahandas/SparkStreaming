@@ -160,3 +160,11 @@ nano config/kibana.yml
 nohup ./bin/kibana &
 
 ```
+
+# Reference:
+
+- https://github.com/soumilshah1995/AWS-Elastic-Search-and-kibana-Deploy
+- https://docs.databricks.com/data/data-sources/elasticsearch.html
+- https://www.elastic.co/guide/en/elasticsearch/hadoop/current/float.html
+- https://stackoverflow.com/questions/40766301/run-elastic-search-as-root-user
+- https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html
