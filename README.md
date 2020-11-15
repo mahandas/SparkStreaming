@@ -27,6 +27,7 @@ will collect all tweets with #trump, #coronavirus.
 
 ## 3. Spark Streaming
 - In Spark Streaming, we need to create a Kafka consumer and periodically collect filtered tweets from scrapper.
+- This is done in databricks clusters.
 - For each hash tag, we perform basic sentiment analysis to classify the tweets as - neutral, negative and positive.
 
 ## 4. Sentiment Analyzer
@@ -45,8 +46,10 @@ more.” - has negative sentiment.
 
 ## 5. Elasticsearch
 - We need to install the Elasticsearch and run it to store the tweets and their sentiment information for further visualization purpose.
+- Elasticsearch is installed in AWS ec2 instance and accesed publically for saving the sentiment information.
 
 ## 6. Kibana
 - Kibana is a visualization tool that can explore the data stored in Elasticsearch. 
+- Kibana is installed as in aws ec2 intance.
 - Here, instead of directly output the result, we use the visualization tool to show tweets sentiment classification result in a real-time manner. 
 
