@@ -7,7 +7,7 @@ Streaming tweets using Kafka servers on spark cluster of databricks, analyzing t
 
 # Architecture 
 
-![alt text](https://github.com/mahandas/SparkStreaming/blob/main/static/Screen%20Shot%202020-11-14%20at%208.22.44%20PM.png?raw=true)
+![alt text](https://github.com/mahandas/SparkStreaming/blob/main/static/Screen%20Shot%202020-11-15%20at%201.13.31%20PM.png?raw=true)
 
 Everything is on a combination of databricks and aws ec2 instance. Now lets deep dive into the details.
 
