@@ -54,6 +54,8 @@ more.” - has negative sentiment.
 - Here, instead of directly output the result, we use the visualization tool to show tweets sentiment classification result in a real-time manner. 
 
 
+![alt text](https://github.com/mahandas/SparkStreaming/blob/main/static/keepgoingturtle.png?raw=true)
+
 # Setup:
 
 1. Kafka on databricks.
