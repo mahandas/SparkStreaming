@@ -78,7 +78,7 @@ kafka_2.10-0.10.2.2/bin/zookeeper-server-start.sh kafka_2.10-0.10.2.2/config/zoo
 
 * Video Tutorial : https://www.youtube.com/watch?v=SbeleFxyvu8&feature=emb_title
 
-#### Step1: Install java and its Dependencies 
+ Step1: Install java and its Dependencies 
 * SSH into device
 
 ```bash
@@ -89,7 +89,7 @@ java -version
 
 ```
 
-#### Step2: Install java and its Dependencies 
+ Step2: Install java and its Dependencies 
 
 ```bash
 sudo su
@@ -102,13 +102,13 @@ rm -f elasticsearch-1.7.2.noarch.rpm
 
 ```
 
-#### Step3: Start the Server
+ Step3: Start the Server
 ```bash
 service elasticsearch start
 ```
 
 
-#### Step4: Automatically Boot u on start 
+ Step4: Automatically Boot u on start 
 * Use the chkconfig command to configure Elasticsearch to start automatically when the system boots up
 
 ```bash
@@ -121,7 +121,7 @@ sudo chkconfig --add elasticsearch
 
 
 
-#### Step5:Configuring AWS IP so you can access using public IP
+ Step5:Configuring AWS IP so you can access using public IP
 * Dirty hack to make it work don’t do on prod 
 
 ```bash
@@ -129,7 +129,7 @@ sudo chkconfig --add elasticsearch
 echo "network.host: 0.0.0.0" >> /etc/elasticsearch/elasticsearch.yml
 
 ```
-#### Step6:Install Plugins
+ Step6:Install Plugins
 * Dirty hack to make it work don’t do on prod 
 
 ```bash
@@ -143,7 +143,7 @@ cd /usr/share/elasticsearch/
 ```
 
 
-#### Step 7:Install Kibana
+ Step 7:Install Kibana
 * Dirty hack to make it work don’t do on prod 
 
 ```bash
