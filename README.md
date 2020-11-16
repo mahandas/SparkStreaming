@@ -17,13 +17,13 @@ Everything is on a combination of databricks and aws ec2 instance. Now lets deep
 - A notebook is used for the producer where the Scrapper is run.
 - Another notebook is used for consumer where sentiment analysis is done on the tweets.
 
-## 2. Scrapper 
+## 2. Scraper 
 
-- The scrapper will collect all tweets using tweepy api and sends them to Kafka for analytics.
+- The scraper will collect all tweets using tweepy api and sends them to Kafka for analytics.
 - Collecting tweets in real-time with particular hash tags. For example, we
 will collect all tweets with #trump, #coronavirus.
 - After filtering, we will send them to Kafka.
-- the scrapper program runs infinitely and takes hash tag as input parameter while running.
+- the scraper program runs infinitely and takes hash tag as input parameter while running.
 
 ## 3. Spark Streaming
 - In Spark Streaming, we need to create a Kafka consumer and periodically collect filtered tweets from scrapper.
